@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333333; /* Texto gris oscuro */
+  font-weight: bold;
+}
+
+.pantalla {
+  display: none;
+}
+
+.activo {
+  display: block;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  width: 90%;
+  font-weight: bold;
+}
+
+button {
+  background-color: #8B4513; /* Marrón */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #5C3317; /* Marrón oscuro para hover */
+}
+
+.cliente {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.btn-detalles {
+  background-color: #32CD32; /* Verde lima */
+  color: white;
+}
+
+.btn-editar {
+  background-color: #FFA500; /* Naranja */
+  color: white;
+  margin: 0 5px;
+}
+
+.btn-eliminar {
+  background-color: #FF4500; /* Rojo anaranjado */
+  color: white;
+}
+
+/* Botones de acción más pequeños */
+.btn-detalles, .btn-editar, .btn-eliminar {
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+/* Si deseas agregar reglas para la clase .i, descomenta y completa:
+   .i {
+     background-color: red;  Ejemplo: establece un color de fondo
+   }
+*/
+
+#preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.ubicacion-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+#ubicacion {
+  flex: 1;
+}
+
+.btn-ubicacion {
+  background-color: #3CB371; /* Verde mediano */
+  color: white;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.mapa-link {
+  color: blue;
+  text-decoration: underline;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* Regla añadida para texto en negrita y negro en article */
+article {
+  font-weight: bold;
+  color: #000000; /* Negro */
+}
